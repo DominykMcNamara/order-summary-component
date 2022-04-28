@@ -10,6 +10,8 @@ html {
 
 @media only screen and (max-width: 24.43rem) {
     html {
-        background: url('../../images/pattern-background-mobile.svg')
+        background: url('../../images/pattern-background-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

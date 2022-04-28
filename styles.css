@@ -68,6 +68,8 @@ html {
 @media only screen and (max-width: 24.43rem) {
   html {
     background: url("../../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 .card-container {
@@ -106,7 +108,7 @@ html {
 .card-body .card-details {
   display: inline-flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 22.12rem;
   background: #F7F9FF;
   border-radius: 0.6rem;
@@ -183,6 +185,7 @@ button:hover {
 @media screen and (max-width: 24.43rem) {
   button {
     width: 17.43rem;
+    margin: 0 auto;
     margin-top: 1.43rem;
   }
 }
