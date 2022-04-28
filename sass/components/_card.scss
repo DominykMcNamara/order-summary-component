@@ -9,6 +9,8 @@
 
 }
 
+
+
 .card-header {
     img {
         border-radius: 1rem 1rem 0rem 0rem;
@@ -78,4 +80,28 @@
         font-weight: 900;
         line-height: 1.25rem;
     }
+}
+
+@media only screen and (max-width: 24.43rem ) {
+    .card-container {
+        width: 20.43rem;
+        height: 38.5rem;
+        margin-top: 2rem;
+    }
+
+    .card-header {
+        img {
+            width: 20.43rem;
+        }
+    }
+
+    .card-body {
+        width: 16.43rem;
+
+        .card-details {
+            width: 17.5rem;
+            
+        }
+    }
+    
 }

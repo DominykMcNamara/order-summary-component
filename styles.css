@@ -132,6 +132,24 @@ html {
   line-height: 1.25rem;
 }
 
+@media only screen and (max-width: 24.43rem) {
+  .card-container {
+    width: 20.43rem;
+    height: 38.5rem;
+    margin-top: 2rem;
+  }
+
+  .card-header img {
+    width: 20.43rem;
+  }
+
+  .card-body {
+    width: 16.43rem;
+  }
+  .card-body .card-details {
+    width: 17.5rem;
+  }
+}
 button {
   width: 22.12rem;
   height: 3.12rem;
@@ -142,6 +160,13 @@ button {
   font-size: 0.93rem;
   margin-top: 2.93rem;
   outline: none;
+}
+
+@media screen and (max-width: 24.43rem) {
+  button {
+    width: 17.43rem;
+    margin-top: 1.43rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -9,3 +9,11 @@ button {
     margin-top: 2.93rem;
     outline: none;
 }
+
+@media screen and (max-width: 24.43rem) {
+    button {
+        width: 17.43rem;
+        margin-top: 1.43rem;
+    }
+    
+}
