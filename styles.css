@@ -65,6 +65,11 @@ html {
   background-size: cover;
 }
 
+@media only screen and (max-width: 24.43rem) {
+  html {
+    background: url("../../images/pattern-background-mobile.svg");
+  }
+}
 .card-container {
   width: 28rem;
   height: 44rem;
@@ -124,12 +129,19 @@ html {
   font-weight: 700;
   font-size: 0.87rem;
 }
+.card-body .card-details a:hover {
+  text-decoration: none;
+  color: #766CF1;
+}
 .card-body #cancel-order {
   color: #717FA6;
   text-decoration: none;
   font-size: 0.93rem;
   font-weight: 900;
   line-height: 1.25rem;
+}
+.card-body #cancel-order:hover {
+  color: #1F2E55;
 }
 
 @media only screen and (max-width: 24.43rem) {
@@ -155,11 +167,16 @@ button {
   height: 3.12rem;
   background-color: #382AE1;
   box-shadow: 0rem 1.25rem 1.25rem rgba(56, 42, 225, 0.190291);
-  border-radius: 11px;
+  border-radius: 0.68rem;
   color: #ffff;
   font-size: 0.93rem;
   margin-top: 2.93rem;
   outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #766CF1;
 }
 
 @media screen and (max-width: 24.43rem) {

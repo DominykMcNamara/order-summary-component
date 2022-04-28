@@ -70,7 +70,15 @@
             color: #382AE1;
             font-weight: 700;
             font-size: 0.87rem;
+
+          
         }
+        a:hover {
+            text-decoration: none;
+            color: #766CF1
+        }
+       
+       
     }
 
     #cancel-order {
@@ -79,6 +87,10 @@
         font-size: 0.93rem;
         font-weight: 900;
         line-height: 1.25rem;
+    }
+
+    #cancel-order:hover {
+        color: #1F2E55;
     }
 }
 
