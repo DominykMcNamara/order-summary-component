@@ -9,10 +9,13 @@ button {
     margin-top: 2.93rem;
     outline: none;
     cursor: pointer;
+    border: none;
+    
 }
 
 button:hover {
     background-color: #766CF1;
+
 }
 
 @media screen and (max-width: 24.43rem) {
